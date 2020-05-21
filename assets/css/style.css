@@ -1,0 +1,52 @@
+body {
+  font-family:'open sans'sans-serif;
+}
+
+h2{
+  font-family:'Oswald';
+  font-size: 52px;
+  font-weight:600;
+}
+.header {
+  width:100%;
+  height:1000px;
+  display: block;
+}
+
+.header img{
+  position: absolute;
+  top:0;
+  left:0;
+  z-index: 0;
+  width:100%;
+  height:100%;
+}
+
+.object-fit{
+  object-fit: cover;
+  object-position: center;
+}
+
+.presentacion{
+  font-family:'Oswald'
+  font-size:
+  font_weight:
+  position:fixed;
+  z-index:auto;
+}
+
+
+hr{
+border: 1px solid black;
+width:10%;
+align-items: center;
+}
+.iconos i{
+color: orange;
+}
+
+  .trabajos h2{
+  font-family:'oswald';
+  font-size:52px;
+  font-weight:600;
+}
