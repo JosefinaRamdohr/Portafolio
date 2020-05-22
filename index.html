@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
   <!-- Integrando Google fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@200;300;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Oswald:wght@200;300;400;500;700&display=swap" rel="stylesheet">
 
     <!-- Integrando Fontawesome -->
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
@@ -26,7 +26,7 @@
 
 <body>
 <!-- Navbar de bootstrap -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark morado fixed-top">
     <div class="container">
       <a class="navbar-brand" href="#">
     <h2 class="isotipo">JR</h2></a>
@@ -40,7 +40,7 @@
           <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#Acerca de mi">Acerca de mi</a>
+          <a class="nav-link" href="#About">Acerca de mi</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#Experiencia">Experiencia</a>
@@ -65,26 +65,28 @@
     <h1>YO SOY <span class="nombre">JOSEFINA</span></h1>
   </div>
   <!-- cierre presentación -->
+  
 </header>
 <!-- cierre header -->
 
 
 
 <!-- section 1 About -->
-<section id="Acerca de mi">
+<section id="About" class="d-sm-none d-md-block">
   <div class="container mt-5 py-5">
-  <h3 class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</h3>
+  <h3 class="text-center subtitulo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</h3>
   <hr>
   <div class="row py-5">
-    <div class="col-6">
+    <div class="col-md-6 col-lg-6">
       <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est.</p></div>
-      <div class="col-6">
+      <div class="col-md-6 col-lg-6">
         <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est.</p>
         </div>
 </div>
     </div>
 </section>
 <!-- cierre section 1 bio -->
+
 
 <!-- section 2 íconos -->
 <section id="Experiencia" class="iconos">
@@ -93,25 +95,29 @@
   <hr>
   <div class="row py-5">
       <!-- agregar íconos -->
-    <div class="col-lg-4 text-center">
-      <i class="fas fa-palette fa-9x"></i>
-      <h3>Diseño integral</h3>
-      <h4>2005-2020</h4>
+      <!-- 1 -->
+    <div class="col-12 col-md-4 text-center">
+    <i class="far fa-edit fa-9x pb-3"></i>
+      <h3>Diseño Integral</h3>
+      <h4>2010 - 2020</h4>
     </div>
-    <div class="col-lg-4 text-center">
-      <i class="fas fa-object-group fa-9x"></i>
-      <h3>Dirección de arte</h3>
-      <h4>2010-2020</h4>
+    <!-- 2 -->
+    <div class="col-12 col-md-4 text-center">
+     <i class="far fa-eye fa-9x pb-3"></i>
+      <h3>Dirección de Arte</h3>
+      <h4>2015 - 2020</h4>
       </div>
-      <div class="col-lg-4 text-center">
-        <i class="fas fa-object-group fa-9x"></i>
-        <h3>Desarrollo web</h3>
-        <h4>2010-2020</h4>
+      <!-- 3 -->
+      <div class="col-12 col-md-4 text-center">
+      <i class="fas fa-layer-group fa-9x pb-3"></i>
+        <h3>Desarrollo Web</h3>
+        <h4>En camino...</h4>
         </div>
       </div>
+      <!-- cierre row íconos -->
     </div>
 </section>
-
+<!-- fin sección íconos -->
 
 <!-- section 3 cards -->
 <section id="Trabajos">
@@ -122,12 +128,13 @@
     <!--row-1 -->
     <div class="row pt-5">
       <!-- card 1 -->
-      <div class="col-lg-4">
-        <div class="card mb-4" style="">
+      <div class="col-lg-4" >
+        <div class="card mb-4"  style="">
   <img src="assets/img/meet_coffee.png" class="card-img-top border-bottom" alt="Meet and coffee">
   <div class="card-body">
     <h5 class="card-title">Meet and Coffee</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <p class="card-text pb-3">Some quick example text to build on the card title and make up the bulk of the.</p>
+    <a class="btn btn-outline-dark" data-toggle="modal" data-target="#coffee">Ver más</a>
   </div>
  </div>
 </div>
@@ -138,7 +145,8 @@
   <img src="assets/img/iguana_page.png" class="card-img-top border-bottom" alt="Iguana Page">
   <div class="card-body">
     <h5 class="card-title">Iguana Page</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <p class="card-text pb-3">Some quick example text to build on the card title and make up the bulk of the.</p>
+    <a class="btn btn-outline-dark" data-toggle="modal" data-target="#iguana">Ver más</a>
   </div>
 </div>
       </div>
@@ -149,7 +157,8 @@
   <img src="assets/img/suricata.png" class="card-img-top border-bottom" alt="Suricata">
   <div class="card-body">
     <h5 class="card-title">Suricata</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <p class="card-text pb-3">Some quick example text to build on the card title and make up the bulk of the.</p>
+    <a class="btn btn-outline-dark" data-toggle="modal" data-target="#suricata">Ver más</a>
   </div>
 </div>
       </div>
@@ -165,7 +174,7 @@
     <img src="assets/img/cuppon.png" class="card-img-top border-bottom" alt="Cuppon">
     <div class="card-body">
       <h5 class="card-title">Cuppon</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <p class="card-text pb-3">Some quick example text to build on the card title and make up the bulk of the.</p>
     </div>
    </div>
   </div>
@@ -176,7 +185,7 @@
     <img src="assets/img/ricomida.png" class="card-img-top border-bottom" alt="Ricomida">
     <div class="card-body">
       <h5 class="card-title">Ricomida</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <p class="card-text pb-3">Some quick example text to build on the card title and make up the bulk of the.</p>
     </div>
   </div>
         </div>
@@ -187,13 +196,86 @@
            <img src="assets/img/dmark.png" class="card-img-top border-bottom" alt="Dmark">
            <div class="card-body">
            <h5 class="card-title">Dmark</h5>
-           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+           <p class="card-text pb-3">Some quick example text to build on the card title and make up the bulk of the.</p>
           </div>
          </div>
        </div>
         <!-- cierre card-->
         </div>
 <!-- cierre row-2 -->
+
+<!-- modal card-1 -->
+<div class="modal fade" id="coffee" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Meet and Coffee</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/img/meet_coffee.png"
+        class="img-fluid my-3" alt="asado">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- modal card-2 -->
+<div class="modal fade" id="iguana" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel2">Iguana page</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/img/iguana_page.png"
+        class="img-fluid my-3" alt="asado">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- modal card-3 -->
+<div class="modal fade" id="suricata" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel3">Suricata</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/img/suricata.png"
+        class="img-fluid my-3" alt="asado">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- cierre modales -->
 </div>
 </div>
   </section>
@@ -201,12 +283,14 @@
 
 
 <!-- section 4 contacto -->
-<section id="Contacto" class="container my-5">
+<section id="Contacto" class="container-fluid">
 <h2 class="text-center font-weight-bold my-4">CONTACTO</h2>
 <hr>
 <p class="my-4 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
 <!-- código de typeform -->
-<div class="typeform-widget" data-url="https://jramdohr.typeform.com/to/Sa80Tj" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=Sa80Tj&utm_source=typeform.com-01E80K3TBQVW54SFWQB0Q2NR9G-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> </div>
+
+<div class="typeform-widget" data-url="https://jramdohr.typeform.com/to/Sa80Tj" style="width: 100%; height: 700px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=Sa80Tj&utm_source=typeform.com-01E80K3TBQVW54SFWQB0Q2NR9G-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> </div>
+
 </section>
 
 
@@ -215,15 +299,14 @@
   <div class="container-fluid morado py-5">
    <div class="container">
     <div class="row">
-      <div class="col-lg-6 text-center text-white">
+      <div class="col-12 col-lg-6 text-center text-white">
         <h2>JOSEFINA</h2>
       </div>
-      <div class="col-lg-6 text-center text-white">
-        <a href="https://github.com"><i class="fab fa-github-square fa-4x pr-2"></i></a>
-        <a href="https://twitter.com"><i class="fab fa-twitter-square fa-4x pr-2"></i></a>
-        <a href="https://www.linkedin.com"><i class="fab fa-linkedin fa-4x pr-2"></i></a>
-        <a href="https://www.facebook.com"><i class="fab fa-facebook-square fa-4x pr-2"></i></a>
-        <a href="https://www.instagram.com/pepa.ramdohr"><i class="fab fa-instagram fa-4x"></i></a>
+      <div class="col-12 col-lg-6 text-center text-white">
+        <a href="https://github.com/JosefinaRamdohr/"><i class="fab fa-github-square fa-3x pr-4 pt-1"></i></a>
+        <a href="https://twitter.com"><i class="fab fa-twitter-square fa-3x pr-4 pt-1"></i></a>
+        <a href="https://www.linkedin.com"><i class="fab fa-linkedin fa-3x pr-4 pt-1"></i></a>
+        <a href="https://www.instagram.com/pepa.ramdohr"><i class="fab fa-instagram fa-3x pt-1"></i></a>
       </div>
      </div>
     </div>
